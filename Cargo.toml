@@ -1,0 +1,12 @@
+[package]
+name = "kmer-analysis"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"  # Check for the latest version on https://crates.io/crates/rand
+plotters = "0.3" # Plotting
+csv = "1.1" # Use it to save csv file
+petgraph = "0.6.0"
